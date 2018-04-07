@@ -39,8 +39,13 @@ def main():
         if k not in rm_endpoints:
             response = get_api(v)
             if response != None:
-                df = cartolafc_dataframe(json.loads(response))
+                response = json.loads(response)
+                if k in response:
+                    df = cartolafc_dataframe(response[k])
+                else:
+                    df = cartolafc_dataframe(response)
                 print("Export %s file"%(k))
+                
                 df.to_csv( (tmp).format(k) )
     print("Arquivos exportados com sucesso!")
     
