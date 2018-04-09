@@ -1,9 +1,11 @@
+# -*- coding: utf-8 -*-
 from requests import post, get
 import os
+import sys
 from mapping_endpoint import cartolafc_endpoint
 import pandas as pd
 import json
-import logging
+from config import config_log
 
 def mkdir(path):
     if not os.path.exists(path):
@@ -32,8 +34,7 @@ def cartolafc_dataframe(body, TypeReturn):
 
 
 def main():
-    logger = logging.getLogger()
-    logger.setLevel(logging.INFO)
+    logger = config_log()
 
     logger.info("Autenticação no Cartola FC")
     email = os.environ["USER_CARTOLA"]

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 cartolafc_endpoint = {"mercado_status": ["https://api.cartolafc.globo.com/mercado/status","dict"],
 "mercado_destaque": ["https://api.cartolafc.globo.com/mercado/destaques","list"],
 "patrocinadores": ["https://api.cartolafc.globo.com/patrocinadores","index"],
