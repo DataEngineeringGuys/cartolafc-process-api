@@ -3,6 +3,7 @@ import os
 from mapping_endpoint import cartolafc_endpoint
 import pandas as pd
 import json
+import logging
 
 def mkdir(path):
     if not os.path.exists(path):
@@ -31,14 +32,24 @@ def cartolafc_dataframe(body, TypeReturn):
 
 
 def main():
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+
+    logger.info("Autenticação no Cartola FC")
     email = os.environ["USER_CARTOLA"]
     password = os.environ["PASS_CARTOLA"]
     token_auth = auth_cartolafc(email, password)
+
+    logger.info("Autenticado com sucesso!")
     rm_endpoints = ['partida_rodada', 'busca_clube', 'busca_clube_slug', 'busca_clube_slug_rodada', 'busca_liga', 'busca_liga_slug']
+
+    logger.info("Criação de diretório temporário")
     tmp = 'cartolafc-extract\\temp\\'
     mkdir(tmp)
     tmp = tmp + '{}.csv'
+    logger.info("Criado com sucesso!")
 
+    logger.info("Inicio de extração de dados do Cartola FC")
     for k, v in cartolafc_endpoint.items():
         if k not in rm_endpoints:
             response = get_api(v[0])
@@ -48,10 +59,10 @@ def main():
                     df = cartolafc_dataframe(response[k],v[1])
                 else:
                     df = cartolafc_dataframe(response, v[1])
-                print("Export %s file"%(k))
+                logger.info("Arquivo %s exportado."%(k))
                 
                 df.to_csv( (tmp).format(k), index = False )
-    print("Arquivos exportados com sucesso!")
+    logger.info("Extração concluida com sucesso.")
     
 
 if __name__ == "__main__":
