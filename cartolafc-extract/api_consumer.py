@@ -1,13 +1,16 @@
 from requests import post, get
-from os import environ
+import os
 from mapping_endpoint import cartolafc_endpoint
 import pandas as pd
 import json
-from itertools import chain
+
+def mkdir(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
 
 def auth_cartolafc(user, pwd):
     auth = {"payload":{"email":user, "password":pwd, "serviceId": 438}}
-    response = post(cartolafc_endpoint['autenticacao'], json=auth)
+    response = post(cartolafc_endpoint['autenticacao'][0], json=auth)
     if 'glbId' not in response.json():
         raise ValueError(response.json()['id'])
     else: 
@@ -20,33 +23,34 @@ def get_api(url, **kwargs):
     else:
         return response.content.decode()
 
-def cartolafc_dataframe(body):
-    if type(body) == list:
+def cartolafc_dataframe(body, TypeReturn):
+    if TypeReturn in ['list','dict']:
         return pd.io.json.json_normalize(body)
-    elif type(body) == dict:
-        return pd.DataFrame.from_dict(body, orient='index') 
     else:
-        None
+        return pd.DataFrame.from_dict(body, orient='index')
+
 
 def main():
-    # email = environ["USER_CARTOLA"]
-    # password = environ["PASS_CARTOLA"]
-    # response = auth_cartolafc(email, password)
+    email = os.environ["USER_CARTOLA"]
+    password = os.environ["PASS_CARTOLA"]
+    token_auth = auth_cartolafc(email, password)
     rm_endpoints = ['partida_rodada', 'busca_clube', 'busca_clube_slug', 'busca_clube_slug_rodada', 'busca_liga', 'busca_liga_slug']
-    tmp = 'cartolafc-extract\\temp\\{}.csv'
+    tmp = 'cartolafc-extract\\temp\\'
+    mkdir(tmp)
+    tmp = tmp + '{}.csv'
 
     for k, v in cartolafc_endpoint.items():
         if k not in rm_endpoints:
-            response = get_api(v)
+            response = get_api(v[0])
             if response != None:
                 response = json.loads(response)
                 if k in response:
-                    df = cartolafc_dataframe(response[k])
+                    df = cartolafc_dataframe(response[k],v[1])
                 else:
-                    df = cartolafc_dataframe(response)
+                    df = cartolafc_dataframe(response, v[1])
                 print("Export %s file"%(k))
                 
-                df.to_csv( (tmp).format(k) )
+                df.to_csv( (tmp).format(k), index = False )
     print("Arquivos exportados com sucesso!")
     
 
