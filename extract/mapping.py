@@ -22,6 +22,7 @@ cartolafc_endpoint = {"mercado_status": ["https://api.cartolafc.globo.com/mercad
 }
 
 columns_dataset_casa = {
+"apelido": "apelido",
 "nome_x": "nome_atleta",
 "pontos_num": "pontos_num",
 "posicao_id": "posicao_id",
@@ -48,6 +49,19 @@ columns_dataset_casa = {
 "placar_oficial_visitante": "placar_oficial_visitante",
 "valida": "valida",
 "id_y": "id_posicao",
-"descricao_posicao": "posicao"
+"descricao_posicao": "descricao_posicao"
 }
 
+grandes_clubes = {"Flamengo":262,
+"Botafogo":263,
+"Corinthians":264,
+"Fluminense":266,
+"Vasco":267,
+"Palmeiras":275,
+"São Paulo":276,
+"Santos":277,
+"Cruzeiro":283,
+"Grêmio":284,
+"Internacional":285}
+
+posicoes_map = {"1":{"id":1,"nome":"Goleiro","abreviacao":"gol"},"2":{"id":2,"nome":"Lateral","abreviacao":"lat"},"3":{"id":3,"nome":"Zagueiro","abreviacao":"zag"},"4":{"id":4,"nome":"Meia","abreviacao":"mei"},"5":{"id":5,"nome":"Atacante","abreviacao":"ata"},"6":{"id":6,"nome":"Técnico","abreviacao":"tec"}}
