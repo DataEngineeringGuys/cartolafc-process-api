@@ -2,7 +2,7 @@
 from requests import post, get
 import os
 import sys
-from mapping_endpoint import cartolafc_endpoint
+from mapping import cartolafc_endpoint
 import pandas as pd
 import json
 from config import config_log

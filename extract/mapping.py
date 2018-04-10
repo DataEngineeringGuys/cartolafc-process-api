@@ -20,3 +20,34 @@ cartolafc_endpoint = {"mercado_status": ["https://api.cartolafc.globo.com/mercad
 "esquemas_taticos": ["https://api.cartolafc.globo.com/esquemas","dict"],
 "autenticacao": ["https://login.globo.com/api/authentication","dict"]
 }
+
+columns_dataset_casa = {
+"nome_x": "nome_atleta",
+"pontos_num": "pontos_num",
+"posicao_id": "posicao_id",
+"preco_num": "preco_num",
+"rodada_id": "rodada_id",
+"scout": "scout",
+"status_id": "status_id",
+"variacao_num": "variacao_num",
+"id_x": "id_clube",
+"nome_y": "nome_clube",
+"abreviacao": "abreviacao_clube",
+"escudos": "escudos",
+"posicao": "posicao",
+"aproveitamento_mandante": "aproveitamento_mandante",
+"aproveitamento_visitante": "aproveitamento_visitante",
+"clube_casa_id": "clube_casa_id",
+"clube_casa_posicao": "clube_casa_posicao",
+"clube_visitante_id": "clube_visitante_id",
+"clube_visitante_posicao": "clube_visitante_posicao",
+"local": "local",
+"partida_data": "partida_data",
+"partida_id": "partida_id",
+"placar_oficial_mandante": "placar_oficial_mandante",
+"placar_oficial_visitante": "placar_oficial_visitante",
+"valida": "valida",
+"id_y": "id_posicao",
+"descricao_posicao": "posicao"
+}
+
