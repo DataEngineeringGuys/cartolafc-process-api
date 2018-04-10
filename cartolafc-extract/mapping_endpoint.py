@@ -8,7 +8,7 @@ cartolafc_endpoint = {"mercado_status": ["https://api.cartolafc.globo.com/mercad
 "clubes": ["https://api.cartolafc.globo.com/clubes","index"],
 "atletas": ["https://api.cartolafc.globo.com/atletas/mercado","dict"],
 "atletas_pontuados" : ["https://api.cartolafc.globo.com/atletas/pontuados", "index"],
-"clubes_destaque": ["https://api.cartolafc.globo.com/pos-rodada/destaques","dict"],
+# "clubes_destaque": ["https://api.cartolafc.globo.com/pos-rodada/destaques","dict"],
 "busca_clube": ["https://api.cartolafc.globo.com/times?q={nome_time}","list"],
 "busca_clube_slug": ["https://api.cartolafc.globo.com/time/slug/{slug_time}", "dict"],
 "busca_clube_slug_rodada": ["https://api.cartolafc.globo.com/time/slug/{slug_time}/{rodada}","dict"],

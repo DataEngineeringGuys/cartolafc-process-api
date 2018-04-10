@@ -1,0 +1,56 @@
+id,nome,abreviacao,escudos,posicao
+1,Outros,OUT,"{'60x60': '', '45x45': '', '30x30': ''}",
+1349,Ipatinga,IPA,"{'60x60': '', '45x45': '', '30x30': ''}",
+1390,Icasa,ICA,"{'60x60': '', '45x45': '', '30x30': ''}",
+2190,Oeste,OES,"{'60x60': '', '45x45': '', '30x30': ''}",
+2193,Duque de Caxias,DUQ,"{'60x60': '', '45x45': '', '30x30': ''}",
+2197,Americana,AME,"{'60x60': '', '45x45': '', '30x30': ''}",
+2554,Grêmio Prudente,PRU,"{'60x60': '', '45x45': '', '30x30': ''}",
+2565,Luverdense,LUV,"{'60x60': '', '45x45': '', '30x30': ''}",
+262,Flamengo,FLA,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/14/flamengo_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/flamengo_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/flamengo_30x30.png'}",1.0
+263,Botafogo,BOT,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/14/botafogo_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/botafogo_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/botafogo_30x30.png'}",1.0
+264,Corinthians,COR,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/14/corinthians_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/corinthians_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/corinthians_30x30.png'}",1.0
+265,Bahia,BAH,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/14/bahia_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/bahia_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/bahia_30x30.png'}",1.0
+266,Fluminense,FLU,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2015/07/21/fluminense_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2015/07/21/fluminense_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2015/07/21/Fluminense-escudo.png'}",1.0
+267,Vasco,VAS,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2016/07/29/Vasco-65.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2016/07/29/Vasco-45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2016/07/29/Vasco-30.png'}",1.0
+275,Palmeiras,PAL,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/14/palmeiras_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/palmeiras_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/palmeiras_30x30.png'}",1.0
+276,São Paulo,SAO,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/14/sao_paulo_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/sao_paulo_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/sao_paulo_30x30.png'}",1.0
+277,Santos,SAN,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/14/santos_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/santos_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/santos_30x30.png'}",1.0
+278,Portuguesa,POR,"{'60x60': '', '45x45': '', '30x30': ''}",
+279,Guarani,GUA,"{'60x60': '', '45x45': '', '30x30': ''}",
+280,Bragantino,BRA,"{'60x60': '', '45x45': '', '30x30': ''}",
+282,Atlético-MG,ATL,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2017/11/23/Atletico-Mineiro-escudo65px.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2017/11/23/Atletico-Mineiro-escudo45px.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2017/11/23/Atletico-Mineiro-escudo30px.png'}",1.0
+283,Cruzeiro,CRU,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2015/04/29/cruzeiro_65.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2015/04/29/cruzeiro_45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2015/04/29/cruzeiro_30.png'}",1.0
+284,Grêmio,GRE,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/14/gremio_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/gremio_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/gremio_30x30.png'}",1.0
+285,Internacional,INT,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2016/05/03/inter65.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2016/05/03/inter45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2016/05/03/inter30.png'}",1.0
+286,Juventude,JUV,"{'60x60': '', '45x45': '', '30x30': ''}",
+287,Vitória,VIT,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/14/vitoria_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/vitoria_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/vitoria_30x30.png'}",1.0
+288,Criciúma,CRI,"{'60x60': '', '45x45': '', '30x30': ''}",
+289,Paraná,PAR,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/13/parana_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/13/parana_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/13/parana_30x30.png'}",1.0
+290,Goiás,GOI,"{'60x60': '', '45x45': '', '30x30': ''}",
+291,Paysandu,PAY,"{'60x60': '', '45x45': '', '30x30': ''}",
+292,Sport,SPO,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2015/07/21/sport65.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2015/07/21/sport45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2015/07/21/sport30.png'}",1.0
+293,Atlético-PR,ATL,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2015/06/24/atletico-pr_2015_65.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2015/06/24/atletico-pr_2015_45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2015/06/24/atletico-pr_2015_30.png'}",1.0
+294,Coritiba,COR,"{'60x60': '', '45x45': '', '30x30': ''}",
+303,Ponte Preta,PON,"{'60x60': '', '45x45': '', '30x30': ''}",
+3057,Boa Esporte,BEC,"{'60x60': '', '45x45': '', '30x30': ''}",
+306,Santo André,SAN,"{'60x60': '', '45x45': '', '30x30': ''}",
+314,Avaí,AVA,"{'60x60': '', '45x45': '', '30x30': ''}",
+315,Chapecoense,CHA,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2015/08/03/Escudo-Chape-165.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2015/08/03/Escudo-Chape-145.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2015/08/03/Escudo-Chape-130.png'}",1.0
+316,Figueirense,FIG,"{'60x60': '', '45x45': '', '30x30': ''}",
+317,Joinville,JEC,"{'60x60': '', '45x45': '', '30x30': ''}",
+327,América-MG,AME,"{'60x60': 'https://s.glbimg.com/es/sde/f/organizacoes/2018/01/24/AmericaMG-65.png', '45x45': 'https://s.glbimg.com/es/sde/f/organizacoes/2018/01/24/AmericaMG-45.png', '30x30': 'https://s.glbimg.com/es/sde/f/organizacoes/2018/01/24/AmericaMG-30.png'}",1.0
+342,ASA Arapiraca,ASA,"{'60x60': '', '45x45': '', '30x30': ''}",
+343,Náutico,NAU,"{'60x60': '', '45x45': '', '30x30': ''}",
+344,Santa Cruz,STC,"{'60x60': '', '45x45': '', '30x30': ''}",
+350,ABC,ABC,"{'60x60': '', '45x45': '', '30x30': ''}",
+351,América-RN,AME,"{'60x60': '', '45x45': '', '30x30': ''}",
+354,Ceará,CEA,"{'60x60': 'https://s.glbimg.com/es/sde/f/equipes/2014/04/14/ceara_60x60.png', '45x45': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/ceara_45x45.png', '30x30': 'https://s.glbimg.com/es/sde/f/equipes/2013/12/16/ceara_30x30.png'}",1.0
+356,Fortaleza,FOR,"{'60x60': '', '45x45': '', '30x30': ''}",
+362,Moto Club,MOT,"{'60x60': '', '45x45': '', '30x30': ''}",
+363,Sampaio Corrêa,SAM,"{'60x60': '', '45x45': '', '30x30': ''}",
+364,Remo,REM,"{'60x60': '', '45x45': '', '30x30': ''}",
+373,Atlético-GO,ATL,"{'60x60': '', '45x45': '', '30x30': ''}",
+375,Vila Nova,VIL,"{'60x60': '', '45x45': '', '30x30': ''}",
+386,São Caetano,SAO,"{'60x60': '', '45x45': '', '30x30': ''}",
+388,Brasiliense,BRA,"{'60x60': '', '45x45': '', '30x30': ''}",
