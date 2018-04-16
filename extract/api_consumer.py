@@ -29,8 +29,17 @@ def get_api(url, **kwargs):
 def cartolafc_dataframe(body, TypeReturn):
     if TypeReturn in ['list','dict']:
         return pd.DataFrame.from_dict(body)
-    else:
+    elif(TypeReturn in ['index']):
         return pd.DataFrame.from_dict(body, orient='index')
+    else:
+        df = pd.DataFrame.from_dict(body['atletas'], orient='index')
+        df2 = df['scout'].apply(pd.Series)
+        df3 = pd.merge(df, df2, left_index=True, right_index=True)
+        df3['atleta_id'] = df.index
+        del df3['scout'], df3['foto']
+        return df3
+
+
 
 
 def main():
@@ -45,7 +54,7 @@ def main():
     rm_endpoints = ['partida_rodada', 'busca_clube', 'busca_clube_slug', 'busca_clube_slug_rodada', 'busca_liga', 'busca_liga_slug']
 
     logger.info("Criação de diretório temporário")
-    tmp = 'cartolafc-extract\\data\\'
+    tmp = 'extract\\data\\'
     mkdir(tmp)
     tmp = tmp + '{}.csv'
     logger.info("Criado com sucesso!")
@@ -57,7 +66,7 @@ def main():
             if response != None:
                 response = json.loads(response)
                 if k in response:
-                    df = cartolafc_dataframe(response[k],v[1])
+                    df = cartolafc_dataframe(response[k.replace('atletas_pontuados','atletas')],v[1])
                 else:
                     df = cartolafc_dataframe(response, v[1])
                 logger.info("Arquivo %s exportado."%(k))
