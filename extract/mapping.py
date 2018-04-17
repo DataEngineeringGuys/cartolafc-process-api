@@ -27,36 +27,6 @@ cartolafc_endpoint_user = {
 "user_ligas": ["https://api.cartolafc.globo.com/auth/ligas"]
 }
 
-columns_dataset_casa = {
-"apelido": "apelido",
-"nome_x": "nome_atleta",
-"pontos_num": "pontos_num",
-"posicao_id": "posicao_id",
-"preco_num": "preco_num",
-"rodada_id": "rodada_id",
-"scout": "scout",
-"status_id": "status_id",
-"variacao_num": "variacao_num",
-"id_x": "id_clube",
-"nome_y": "nome_clube",
-"abreviacao": "abreviacao_clube",
-"escudos": "escudos",
-"posicao": "posicao",
-"aproveitamento_mandante": "aproveitamento_mandante",
-"aproveitamento_visitante": "aproveitamento_visitante",
-"clube_casa_id": "clube_casa_id",
-"clube_casa_posicao": "clube_casa_posicao",
-"clube_visitante_id": "clube_visitante_id",
-"clube_visitante_posicao": "clube_visitante_posicao",
-"local": "local",
-"partida_data": "partida_data",
-"partida_id": "partida_id",
-"placar_oficial_mandante": "placar_oficial_mandante",
-"placar_oficial_visitante": "placar_oficial_visitante",
-"valida": "valida",
-"id_y": "id_posicao",
-"descricao_posicao": "descricao_posicao"
-}
 
 grandes_clubes = {"Flamengo":262,
 "Botafogo":263,

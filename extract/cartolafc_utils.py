@@ -26,11 +26,18 @@ def cartolafc_dataframe(body, file_name):
         df = pd.DataFrame.from_dict(body, orient='index')
         df['id_%s'%file_name] = df.index
         return df
-    elif file_name in ['partidas', 'atletas']:
+    elif file_name in ['partidas']:
         df = pd.DataFrame.from_dict(body[file_name])
         return df
     elif file_name in ['atletas_pontuados']:
         df = pd.DataFrame.from_dict(body['atletas'], orient='index')
+        df2 = df['scout'].apply(pd.Series)
+        df3 = pd.merge(df, df2, left_index=True, right_index=True)
+        df3['atleta_id'] = df.index
+        del df3['scout'], df3['foto']
+        return df3
+    elif file_name in ['atletas']:
+        df = pd.DataFrame.from_dict(body['atletas'])
         df2 = df['scout'].apply(pd.Series)
         df3 = pd.merge(df, df2, left_index=True, right_index=True)
         df3['atleta_id'] = df.index

@@ -1,75 +1,146 @@
-﻿apelido,abreviacao_clube,preco_num,descricao_posicao
-Wagner,VAS,7,Meia
-Wellington,VAS,6,Meia
-Desábato,VAS,7,Meia
-Henrique,CRU,10,Meia
-Thiago Neves,CRU,24,Meia
-Robinho,CRU,12,Meia
-Ariel Cabral,CRU,7,Meia
-Arrascaeta,CRU,15,Meia
-Rodrigo Lindoso,BOT,7,Meia
-Renatinho,BOT,4,Meia
-Marcelo,BOT,4,Meia
-Leonardo Valencia,BOT,6,Meia
-Ralf,COR,10,Meia
-Rodriguinho,COR,17,Meia
-Mateus Vital,COR,5,Meia
-Maycon,COR,7,Meia
-Jadson,COR,12,Meia
-Alison,SAN,8,Meia
-Cueva,SAO,14,Meia
-Edenílson,INT,7,Meia
-D'Alessandro,INT,13,Meia
-Rodrigo Dourado,INT,8,Meia
-Patrick,INT,9,Meia
-Rafael Galhardo,VAS,4,Lateral
-Yago Pikachu,VAS,8,Lateral
-Henrique,VAS,7,Lateral
-Edílson,CRU,13,Lateral
-Egídio,CRU,11,Lateral
-Gilson,BOT,4,Lateral
-Marcinho,BOT,6,Lateral
-Fagner,COR,17,Lateral
-Sidcley,COR,8,Lateral
-Dodô,SAN,10,Lateral
-Daniel Guedes ,SAN,7,Lateral
-Fabiano,INT,5,Lateral
-Iago,INT,6,Lateral
-Paulão,VAS,5,Zagueiro
-Erazo,VAS,7,Zagueiro
-Dedé,CRU,6,Zagueiro
-Léo,CRU,7,Zagueiro
-Igor Rabello,BOT,11,Zagueiro
-Joel Carli,BOT,8,Zagueiro
-Henrique,COR,10,Zagueiro
-Balbuena,COR,18,Zagueiro
-David Braz,SAN,12,Zagueiro
-Lucas Veríssimo,SAN,5,Zagueiro
-Arboleda,SAO,11,Zagueiro
-Rodrigo Moledo,INT,5,Zagueiro
-Víctor Cuesta,INT,7,Zagueiro
-Martín Silva,VAS,14,Goleiro
-Fábio,CRU,16,Goleiro
-Gatito Fernández,BOT,14,Goleiro
-Cássio,COR,13,Goleiro
-Vanderlei,SAN,23,Goleiro
-Sidão,SAO,10,Goleiro
-Marcelo Lomba,INT,6,Goleiro
-Rildo,VAS,6,Atacante
-Riascos,VAS,7,Atacante
-Rafael Sobis,CRU,8,Atacante
-Kieza,BOT,6,Atacante
-Rodrigo Pimpão,BOT,9,Atacante
-Ángel Romero,COR,9,Atacante
-Eduardo Sasha,SAN,10,Atacante
-Gabriel,SAN,16,Atacante
-Rodrygo,SAN,8,Atacante
-Rossi,INT,5,Atacante
-Roger,INT,7,Atacante
-Zé Ricardo,VAS,10,Técnico
-Mano Menezes,CRU,13,Técnico
-Alberto Valentim,BOT,7,Técnico
-Fábio Carille,COR,14,Técnico
-Jair Ventura,SAN,11,Técnico
-Diego Aguirre,SAO,8,Técnico
-Odair Hellmann,INT,5,Técnico
+﻿apelido,atleta_id,id_clubes,jogos_num,media_num,nome_atleta,pontos_num,posicao_id,preco_num,rodada_id,status_id,variacao_num,A,CA,CV,DD,FC,FD,FF,FS,FT,G,GC,GS,I,PE,RB,SG,nome_clube,abreviacao_clube,aproveitamento_mandante,aproveitamento_visitante,clube_casa_id,clube_visitante_id,nome_status,nome_posicao,abreviacao_posicao
+Diego,0,262,1,"0,8",Diego Ribas da Cunha,"0,8",4,"10,89",1,7,"-4,11",,"1,0",,,"3,0",,"1,0","8,0",,,,,"1,0","5,0","1,0",,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Meia,mei
+Henrique Dourado,118,262,1,"0,5",José Henrique da Silva Dourado,"0,5",5,"15,5",1,7,"-6,5",,,,,"1,0",,,"2,0",,,,,,,,,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Atacante,ata
+Berrío ,125,262,0,"0,0",Orlando Enrique Berrío Meléndez,"0,0",5,"5,0",1,5,"0,0",,,,,,,,,,,,,,,,,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Contundido,Atacante,ata
+Lucas Paquetá,162,262,1,"12,1",Lucas Tolentino Coelho de Lima,"12,1",4,"17,98",1,7,"3,98",,,,,"1,0","1,0",,"5,0",,"1,0",,,,"2,0","1,0",,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Meia,mei
+Felipe Vizeu,168,262,0,"0,0",Felipe dos Reis Pereira Vizeu do Carmo,"0,0",5,"6,0",1,3,"0,0",,,,,,,,,,,,,,,,,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Suspenso,Atacante,ata
+Vinicius Junior,170,262,1,"6,4",Vinicius José Paixão de Oliveira Junior,"6,4",5,"11,3",1,7,"1,3","1,0",,,,"1,0","1,0","2,0","3,0",,,,,,"8,0",,,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Atacante,ata
+Maurício Barbieri,685,262,1,"3,79",Maurício Nogueira Barbieri,"3,79",6,"9,5",1,7,"-0,5",,,,,,,,,,,,,,,,,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Técnico,tec
+Éverton Ribeiro,727,262,1,"-5,8",Éverton Augusto de Barros Ribeiro,"-5,8",4,"2,89",1,3,"-7,11",,,"1,0",,"1,0",,,,,,,,,"1,0",,,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Suspenso,Meia,mei
+Réver,729,262,1,"10,1",Réver Humberto Alves Araújo,"10,1",3,"16,6",1,7,"2,6",,,,,,"1,0",,"3,0",,"1,0",,,,"2,0",,,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Zagueiro,zag
+Cuéllar,732,262,1,"5,2",Gustavo Leonardo Cuellar Gallego,"5,2",4,"9,09",1,7,"1,09",,,,,"1,0",,,,,,,,,"1,0","4,0",,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Meia,mei
+Geuvânio,734,262,1,"5,5",Geuvânio Santos Silva,"5,5",5,"6,54",1,7,"2,54","1,0",,,,"1,0",,,,,,,,"1,0",,"1,0",,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Atacante,ata
+Paolo Guerrero,736,262,0,"0,0",José Paolo Guerrero Gonzales,"0,0",5,"15,0",1,3,"0,0",,,,,,,,,,,,,,,,,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Suspenso,Atacante,ata
+Renê,737,262,1,"2,3",Renê Rodrigues Martins,"2,3",2,"5,03",1,7,"0,03",,,,,,,,"1,0",,,,,,"4,0","2,0",,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Lateral,lat
+Rodinei,739,262,1,"3,1",Rodinei Marcelo de Almeida,"3,1",2,"6,96",1,7,"-0,04",,,,,,,,"2,0",,,,,,"3,0","2,0",,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Lateral,lat
+Juan,769,262,1,"0,5",Juan Silveira dos Santos,"0,5",3,"8,61",1,7,"-3,39",,,,,,,,"1,0",,,,,,"5,0","1,0",,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Zagueiro,zag
+Júlio César,774,262,0,"0,0",Júlio César Soares de Espíndola,"0,0",1,"7,0",1,7,"0,0",,,,,,,,,,,,,,,,,Flamengo,FLA,"['', '', '', '', 'e']","['', '', '', '', 'v']",262,327,Provável,Goleiro,gol
+Douglas Friedrich,1,265,1,"-0,8",Douglas Alan Schuck Friedrich,"-0,8",1,"2,89",1,7,"-2,11",,,,"1,0",,,,"1,0",,,,"2,0",,"1,0",,,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Goleiro,gol
+Douglas Grolli,2,265,1,"0,2",Douglas Ricardo Grolli,"0,2",3,"2,89",1,7,"-1,11",,,,,"2,0",,,,,,,,,"1,0","1,0",,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Zagueiro,zag
+Lucas Fonseca,4,265,0,"0,0",Lucas Fonseca da Silva,"0,0",3,"7,0",1,5,"0,0",,,,,,,,,,,,,,,,,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Contundido,Zagueiro,zag
+Tiago ,7,265,1,"1,4",Tiago Pagnussat,"1,4",3,"6,48",1,7,"-1,52",,,,,"3,0","1,0",,"1,0",,,,,,"1,0","1,0",,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Zagueiro,zag
+Vinícius,9,265,1,"-0,4",Vinícius Goes Barbosa de Souza,"-0,4",4,"7,3",1,7,"-3,7",,,,,,,,"1,0",,,,,,"3,0",,,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Meia,mei
+Zé Rafael ,11,265,1,"6,7",José Rafael Vivian,"6,7",4,"17,02",1,7,"-0,98",,,,,,"1,0","1,0","4,0",,,,,,"1,0","2,0",,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Meia,mei
+Edigar Junio,14,265,1,"0,9",Edigar Junio Teixeira Lima ,"0,9",5,"6,82",1,7,"-2,18",,,,,"2,0",,,,,,,,"1,0","2,0","2,0",,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Atacante,ata
+Marco Antônio,18,265,1,"1,5",Marco Antônio Rosa Furtado Júnior,"1,5",4,"1,72",1,7,"0,72",,,,,,,,,,,,,,,"1,0",,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Meia,mei
+Léo,19,265,1,"3,5",Leonardo Pinheiro da Conceição,"3,5",2,"5,86",1,7,"0,86",,,,,"1,0",,"1,0","1,0",,,,,,"1,0","2,0",,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Lateral,lat
+Gregore,20,265,1,"4,3",Gregore de Magalhães da Silva,"4,3",4,"5,03",1,7,"2,03",,,,,"3,0",,"1,0","1,0",,,,,,,"3,0",,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Meia,mei
+Guto Ferreira,536,265,1,"2,48",Augusto Sérgio Ferreira,"2,48",6,"6,53",1,7,"-0,47",,,,,,,,,,,,,,,,,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Técnico,tec
+Nino Paraíba,542,265,1,"7,2",Severino do Ramo Clementino da Silva,"7,2",2,"9,09",1,7,"3,09",,,,,,,"1,0","2,0",,,,,,"2,0","4,0",,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Lateral,lat
+Jackson,544,265,0,"0,0",Jackson de Souza,"0,0",3,"4,0",1,5,"0,0",,,,,,,,,,,,,,,,,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Contundido,Zagueiro,zag
+Elton,547,265,1,"2,9",Elton Junior Melo Ataíde,"2,9",4,"6,13",1,7,"0,13",,,,,"3,0",,,"1,0",,,,,,"2,0","3,0",,Bahia,BAH,"['', '', '', '', 'd']","['', '', '', '', 'v']",265,277,Provável,Meia,mei
+Renato Chaves,186,266,1,"-0,1",Renato de Araújo Chaves Júnior,"-0,1",3,"4,75",1,7,"-2,25",,,,,"2,0",,,,,,,,,"2,0","1,0",,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Provável,Zagueiro,zag
+Júlio César,187,266,1,"-4,3",Júlio César Jacobi,"-4,3",1,"2,55",1,7,"-5,45",,,,,,,,,,,,"2,0",,"1,0",,,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Provável,Goleiro,gol
+Jadson,189,266,1,"6,9",Jadson Alves dos Santos,"6,9",4,"8,89",1,7,"2,89",,,,,"2,0",,"1,0","1,0",,,,,,"3,0","5,0",,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Provável,Meia,mei
+Pablo Dyego,195,266,1,"3,3",Pablo Dyego da Silva Rosa,"3,3",5,"3,65",1,7,"1,65",,,,,"1,0","1,0","1,0","3,0",,,,,,"4,0","1,0",,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Provável,Atacante,ata
+Gilberto ,196,266,1,"-0,7",Gilberto Moraes Júnior,"-0,7",2,"5,03",1,7,"-2,97",,,,,"2,0",,,,,,,,,"4,0","1,0",,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Provável,Lateral,lat
+Ayrton Lucas,197,266,1,"4,3",Ayrton Lucas Dantas de Medeiros,"4,3",2,"7,78",1,7,"0,78",,,,,"1,0",,"1,0","5,0",,,,,,,"1,0",,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Provável,Lateral,lat
+Richard,200,266,1,"16,2",Richard Cândido Coelho,"16,2",4,"14,61",1,7,"9,61",,,,,,,"1,0","1,0",,"1,0",,,,"2,0","5,0",,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Provável,Meia,mei
+Pedro,203,266,1,"6,0",Pedro Guilherme Abreu dos Santos,"6,0",5,"8,27",1,7,"2,27","1,0",,,,"2,0","1,0","1,0",,,,,,,,,,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Provável,Atacante,ata
+Marcos Calazans,206,266,0,"0,0",Marcos Vinícius Silva Rocha Calazans,"0,0",5,"3,0",1,5,"0,0",,,,,,,,,,,,,,,,,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Contundido,Atacante,ata
+Frazan,209,266,1,"-0,5",Wesley Frazan Bernardo,"-0,5",3,"1,72",1,2,"-1,28",,,,,"1,0",,,,,,,,,,,,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Dúvida,Zagueiro,zag
+Gum,210,266,1,"-0,8",Welington Pereira Rodrigues,"-0,8",3,"2,89",1,7,"-2,11",,,,,"2,0",,"1,0",,,,,,,"2,0",,,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Provável,Zagueiro,zag
+Sornoza,211,266,1,"7,2",Júnior Nazareno Sornoza Moreira,"7,2",4,"8,4",1,7,"3,4",,,,,,"2,0",,,,,,,,"4,0","4,0",,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Provável,Meia,mei
+Ibañez,214,266,1,"2,7",Roger Ibañez da Silva,"2,7",3,"5,99",1,2,"-0,01",,,,,,,,,,,,,,"1,0","2,0",,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Dúvida,Zagueiro,zag
+Abel Braga,235,266,1,"3,61",Abel Carlos da Silva Braga,"3,61",6,"10,06",1,7,"-0,94",,,,,,,,,,,,,,,,,Fluminense,FLU,"['', '', '', '', 'd']","['', '', '', '', 'd']",266,283,Provável,Técnico,tec
+Khevin,43,315,0,"0,0",Khevin Rodrigo Fraga,"0,0",4,"2,0",1,5,"0,0",,,,,,,,,,,,,,,,,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Contundido,Meia,mei
+Márcio Araújo,127,315,1,"-1,8",Márcio Rodrigues Araújo,"-1,8",4,"2,89",1,7,"-3,11",,"1,0",,,"2,0",,,,,,,,,"1,0","1,0",,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Meia,mei
+Gilson Kleina,130,315,1,"1,58",Gilson Kleina,"1,58",6,"5,22",1,7,"-0,78",,,,,,,,,,,,,,,,,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Técnico,tec
+Apodi,133,315,1,"1,5",Luiz Diallison de Souza Alves,"1,5",2,"5,86",1,7,"-1,14",,,,,"2,0",,"2,0",,,,,,,"2,0","1,0",,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Lateral,lat
+Amaral,134,315,1,"1,4",William José de Souza,"1,4",4,"5,1",1,7,"-0,9",,,,,,,,"1,0",,,,,,"2,0","1,0",,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Meia,mei
+Vinicius,135,315,1,"2,2",Vinicius Santos Silva,"2,2",5,"4,27",1,7,"0,27",,,,,"1,0",,"1,0","2,0",,,,,,"2,0","1,0",,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Atacante,ata
+Nery Bareiro,138,315,0,"0,0",Nery Rubén Bareiro Zorrilla,"0,0",3,"5,0",1,5,"0,0",,,,,,,,,,,,,,,,,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Contundido,Zagueiro,zag
+Neto,139,315,0,"0,0",Hélio Hermito Zampier Neto,"0,0",3,"2,0",1,5,"0,0",,,,,,,,,,,,,,,,,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Contundido,Zagueiro,zag
+Canteros,141,315,1,"4,7",Héctor Canteros,"4,7",4,"8,06",1,7,"1,06","1,0",,,,,,,,,,,,,"6,0","1,0",,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Meia,mei
+Douglas,143,315,1,"2,0",Douglas Silva Bacelar,"2,0",3,"4,82",1,7,"-0,18",,,,,"3,0",,,"1,0",,,,,,,"2,0",,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Zagueiro,zag
+Rafael Thyere,147,315,1,"-1,8",Rafael Thyere Albuquerque Marques,"-1,8",3,"2,2",1,7,"-2,8",,"1,0",,,"2,0",,,,,,,,,"1,0","1,0",,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Zagueiro,zag
+Arthur ,148,315,1,"1,8",Arthur Caíke do Nascimento Cruz,"1,8",5,"6,75",1,7,"-1,25",,,,,,,"2,0","1,0",,,,,,"1,0",,,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Atacante,ata
+Bruno Pacheco,151,315,1,"1,2",Bruno de Jesus Pacheco,"1,2",2,"4,27",1,7,"-0,73",,,,,"1,0",,,"1,0",,,,,,"1,0","1,0",,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Lateral,lat
+Jandrei,152,315,1,"-3,5",Jandrei Chitolina Carniel,"-3,5",1,"3,79",1,7,"-5,21",,,,"2,0",,,,"1,0",,,,"5,0",,,,,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Goleiro,gol
+Fabrício Bruno,154,315,0,"0,0",Fabrício Bruno Soares de Faria,"0,0",3,"6,0",1,5,"0,0",,,,,,,,,,,,,,,,,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Contundido,Zagueiro,zag
+Perotti,157,315,0,"0,0",Pedro Henrique Perotti,"0,0",5,"2,0",1,5,"0,0",,,,,,,,,,,,,,,,,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Contundido,Atacante,ata
+Wellington Paulista,192,315,1,"7,3",Wellington Pereira do Nascimento,"7,3",5,"11,23",1,7,"2,23",,"1,0",,,"5,0",,"2,0",,,"1,0",,,"1,0","1,0","2,0",,Chapecoense,CHA,"['', '', '', '', 'd']","['', '', '', '', 'v']",315,267,Provável,Atacante,ata
+Marcelo Chamusca,63,354,1,"1,19",Marcelo Augusto Oliveira Chamusca,"1,19",6,"2,2",1,7,"0,2",,,,,,,,,,,,,,,,,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Técnico,tec
+Felipe Azevedo,67,354,1,"-0,7",Felipe Azevedo dos Santos,"-0,7",5,"5,72",1,7,"-3,28",,,,,,,,"1,0",,,,,,"4,0",,,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Atacante,ata
+Pedro Ken,70,354,0,"0,0",Pedro Ken Morimoto Moreira,"0,0",4,"5,0",1,5,"0,0",,,,,,,,,,,,,,,,,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Contundido,Meia,mei
+Ernandes,72,354,1,"0,5",Ernandes Dias Luz,"0,5",2,"2,41",1,7,"-0,59",,,,,,,"1,0",,,,,,,"1,0",,,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Lateral,lat
+Wescley,75,354,1,"0,9",Wescley Gomes dos Santos,"0,9",4,"4,06",1,7,"-0,94",,,,,"2,0",,,"2,0",,,,,,"2,0","1,0",,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Meia,mei
+Éverson,76,354,1,"2,0",Éverson Felipe Marques Pires,"2,0",1,"6,2",1,7,"-0,8",,,,"2,0",,,,,,,,"2,0",,,,,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Goleiro,gol
+Juninho,77,354,1,"-0,1",Paulo Roberto Valoura Júnior,"-0,1",4,"4,06",1,7,"-1,94",,,,,,,"1,0",,,,,,,"8,0","1,0",,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Meia,mei
+Pio,78,354,1,"0,1",Francisco Hércules de Araújo,"0,1",4,"4,2",1,7,"-1,8",,,,,"1,0",,,"1,0",,,"1,0",,,"3,0","4,0",,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Meia,mei
+Ricardinho,81,354,1,"0,0",Ricardo Dias Acosta,"0,0",4,"4,82",1,7,"-2,18",,,,,,,,,,,,,,,,,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Meia,mei
+Luiz Otávio,82,354,1,"2,7",Luiz Otávio Anacleto Leandro,"2,7",3,"5,99",1,7,"-0,01",,,,,,,,,,,,,,"1,0","2,0",,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Zagueiro,zag
+Rafael Carioca,85,354,1,"-2,0",Rafael Bruno Cajueiro da Silva,"-2,0",2,"1,38",1,7,"-2,62",,"1,0",,,"2,0",,"1,0","1,0",,,,,,"6,0","1,0",,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Lateral,lat
+Valdo,92,354,1,"3,0",Andrevaldo de Jesus Santos,"3,0",3,"5,51",1,7,"0,51",,,,,,,,,,,,,,,"2,0",,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Zagueiro,zag
+Richardson,120,354,0,"0,0",Richardson Fernandes dos Santos,"0,0",4,"6,0",1,5,"0,0",,,,,,,,,,,,,,,,,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Contundido,Meia,mei
+Arthur,121,354,1,"3,6",Arthur Mendonça Cabral,"3,6",5,"5,92",1,7,"0,92",,,,,,"1,0",,,,,,,,"2,0","2,0",,Ceará,CEA,"['', '', '', '', 'd']","['', '', '', '', 'v']",354,276,Provável,Atacante,ata
+Andrigo,122,292,1,"1,6",Andrigo Oliveira de Araujo,"1,6",4,"6,61",1,7,"-1,39",,,,,"1,0","1,0","1,0",,,,,,"1,0","3,0","1,0",,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Meia,mei
+Claudio Winck,289,292,1,"-1,8",Claudio Winck Neto,"-1,8",2,"2,2",1,7,"-2,8",,"1,0",,,"3,0",,,"1,0",,,,,,"1,0","1,0",,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Lateral,lat
+Nelsinho Baptista,566,292,1,"1,41",Nélson Baptista Júnior,"1,41",6,"5,79",1,7,"-1,21",,,,,,,,,,,,,,,,,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Técnico,tec
+Anselmo,567,292,1,"6,7",Anselmo de Moraes,"6,7",4,"10,13",1,7,"2,13",,,,,"2,0",,"1,0","3,0",,,,,,"2,0","4,0",,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Meia,mei
+Fellipe Bastos,568,292,1,"0,9",Fellipe Ramos Ignez Bastos,"0,9",4,"3,38",1,7,"-0,62",,,,,"1,0","1,0","1,0",,,,,,,"2,0",,,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Meia,mei
+Magrão,569,292,0,"0,0",Alessandro Beti Rosa,"0,0",1,"10,0",1,5,"0,0",,,,,,,,,,,,,,,,,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Contundido,Goleiro,gol
+Agenor,574,292,1,"-6,0",Agenor Detofol,"-6,0",1,"0,69",1,7,"-2,31",,,,,,,,,,,,"3,0",,,,,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Goleiro,gol
+Raul Prata,578,292,1,"7,1",Raul Prata,"7,1",2,"9,02",1,7,"3,02",,,,,,,,"1,0",,,,,,"3,0","5,0",,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Lateral,lat
+Marlone,582,292,1,"1,6",Johnath Marlone Azevedo da Silva,"1,6",4,"7,3",1,7,"-1,7",,"1,0",,,"1,0","3,0","1,0","1,0",,,,,"1,0","1,0",,,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Meia,mei
+Rogério,583,292,0,"0,0",José Rogério de Oliveira,"0,0",5,"7,0",1,5,"0,0",,,,,,,,,,,,,,,,,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Contundido,Atacante,ata
+Léo Ortiz,593,292,1,"-1,5",Leonardo Rech Ortiz,"-1,5",3,"3,1",1,7,"-2,9",,"1,0",,,"2,0",,,,,,,,,,"1,0",,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Zagueiro,zag
+Ernando,670,292,1,"0,5",Ernando Rodrigues Lopes,"0,5",3,"5,86",1,7,"-2,14",,,,,,,,"1,0",,,,,,,,,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Zagueiro,zag
+Hygor,673,292,1,"-0,5",Hygor Cleber Garcia Silva,"-0,5",5,"1,03",1,7,"-0,97",,,,,"1,0",,,"1,0",,,,,"1,0",,,,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Atacante,ata
+Ferreira,687,292,1,"3,9",Matheus Ferreira de Sousa,"3,9",4,"4,75",1,7,"1,75",,,,,,,,,,,,,,"2,0","3,0",,Sport,SPO,"['', '', '', '', 'd']","['', '', '', '', 'e']",292,263,Provável,Meia,mei
+Willian,188,275,1,"2,8",Willian Gomes de Siqueira,"2,8",5,"8,82",1,7,"-1,18",,,,,"2,0","3,0",,"1,0",,,,,,"1,0",,,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Atacante,ata
+Roger Machado ,305,275,1,"1,45",Roger Machado Marques,"1,45",6,"9,96",1,7,"-3,04",,,,,,,,,,,,,,,,,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Técnico,tec
+Felipe Melo,315,275,1,"1,1",Felipe Melo de Carvalho,"1,1",4,"5,58",1,7,"-1,42",,"1,0",,,"1,0",,,,,,,,,"8,0","4,0",,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Meia,mei
+Diogo Barbosa,321,275,1,"-2,0",Diogo Barbosa Mendanha,"-2,0",2,"8,96",1,7,"-6,04",,"1,0",,,"3,0",,,,,,,,,"5,0","2,0",,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Lateral,lat
+Bruno Henrique,322,275,1,"1,9",Bruno Henrique Corsini,"1,9",4,"7,51",1,7,"-1,49",,,,,"2,0",,,"1,0",,,,,,"2,0","2,0",,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Meia,mei
+Marcos Rocha,323,275,1,"-3,5",Marcos Luis Rocha Aquino,"-3,5",2,"7,92",1,7,"-7,08",,"1,0",,,"3,0",,,,,,,,,"5,0","1,0",,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Lateral,lat
+Dudu,325,275,1,"1,9",Eduardo Pereira Rodrigues,"1,9",5,"18,53",1,7,"-6,47","1,0","1,0",,,"2,0",,,"1,0",,,,,,"7,0","1,0",,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Atacante,ata
+Jailson,326,275,1,"3,1",Jailson Marcelino dos Santos,"3,1",1,"11,78",1,7,"-2,22",,,,"2,0",,,,,,,,"1,0",,"3,0",,,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Goleiro,gol
+Lucas Lima,332,275,1,"0,2",Lucas Rafael Araujo Lima,"0,2",4,"9,09",1,7,"-3,91",,,,,"2,0",,,,,,,,,"1,0","1,0",,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Meia,mei
+Thiago Martins,335,275,1,"-1,1",Thiago Martins Bueno,"-1,1",3,"4,75",1,7,"-3,25",,,,,"1,0",,,,,,,,,"2,0",,,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Zagueiro,zag
+Keno,339,275,1,"1,7",Marcos da Silva França,"1,7",5,"8,06",1,7,"-1,94",,,,,"3,0",,,"1,0",,,,,,"6,0","3,0",,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Atacante,ata
+Antônio Carlos ,360,275,1,"1,7",Antônio Carlos Cunha Capocasali Júnior,"1,7",3,"7,37",1,7,"-1,63",,,,,,,,"1,0",,,,,,"1,0","1,0",,Palmeiras,PAL,"['', '', '', '', 'e']","['', '', '', '', 'v']",275,285,Provável,Zagueiro,zag
+Marcelo Grohe,219,284,1,"11,0",Marcelo Grohe,"11,0",1,"19,29",1,7,"2,29",,,,"2,0",,,,,,,,,,,,"1,0",Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Goleiro,gol
+Cícero,221,284,1,"2,3",Cícero Santos,"2,3",4,"7,1",1,7,"-0,9",,,,,,"1,0",,"1,0",,,,,,"3,0","1,0",,Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Meia,mei
+Renato Gaúcho,223,284,1,"7,29",Renato Portaluppi,"7,29",6,"15,36",1,7,"0,36",,,,,,,,,,,,,,,,,Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Técnico,tec
+André,226,284,1,"6,1",André Felipe Ribeiro de Souza,"6,1",5,"12,47",1,7,"0,47",,,,,"4,0",,"1,0","1,0",,"1,0",,,"3,0","4,0","1,0",,Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Atacante,ata
+Maicon,228,284,1,"0,0",Maicon Thiago Pereira de Souza,"0,0",4,"6,2",1,7,"-2,8",,,,,"1,0",,,"1,0",,,,,,,,,Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Meia,mei
+Paulo Miranda,229,284,1,"5,1",Jonathan Doin,"5,1",3,"6,96",1,7,"1,96",,,,,"2,0",,,"1,0",,,,,,"3,0","1,0","1,0",Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Zagueiro,zag
+Léo Moura,231,284,1,"9,2",Leonardo da Silva Moura,"9,2",2,"9,78",1,7,"4,78",,,,,"1,0",,,"4,0",,,,,,"1,0","2,0","1,0",Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Lateral,lat
+Bruno Cortez,233,284,1,"10,0",Bruno Cortês Barbosa,"10,0",2,"13,09",1,7,"4,09",,,,,"2,0",,,"3,0",,,,,,"5,0","4,0","1,0",Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Lateral,lat
+Everton,234,284,1,"10,0",Everton Sousa Soares,"10,0",5,"11,71",1,7,"4,71","1,0",,,,"1,0","1,0","1,0","1,0",,,,,,,"2,0",,Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Atacante,ata
+Ramiro,236,284,1,"2,9",Ramiro Moschen Benetti,"2,9",4,"8,2",1,7,"-0,8",,"1,0",,,"2,0",,,"1,0",,,,,,"2,0","4,0",,Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Meia,mei
+Pedro Geromel,237,284,0,"0,0",Pedro Tonon Geromel,"0,0",3,"20,0",1,7,"0,0",,,,,,,,,,,,,,,,,Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Zagueiro,zag
+Arthur,251,284,1,"11,7",Arthur Henrique Ramos de Oliveira Melo,"11,7",4,"16,33",1,7,"4,33",,,,,,,,"6,0",,,,,,"1,0","6,0",,Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Provável,Meia,mei
+Kannemann,291,284,1,"1,9",Walter Kannemann,"1,9",3,"10,95",1,3,"-3,05",,,"1,0",,"2,0",,,"1,0",,,,,,"2,0","2,0","1,0",Grêmio,GRE,"['', '', '', '', 'v']","['', '', '', '', 'v']",284,293,Suspenso,Zagueiro,zag
+Carlos Eduardo,355,289,1,"2,4",Carlos Eduardo Marques,"2,4",4,"5,1",1,7,"0,1",,,,,,,"1,0","2,0",,,,,,"3,0","1,0",,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Meia,mei
+Rogério Micale,359,289,1,"1,49",Mário Rogério Reis Micale ,"1,49",6,"3,78",1,7,"-0,22",,,,,,,,,,,,,,,,,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Técnico,tec
+Mansur,381,289,1,"0,4",Joeliton Lima Santos,"0,4",2,"3,72",1,7,"-1,28",,,,,,,,"2,0",,,,,,"2,0",,,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Lateral,lat
+Rayan,383,289,1,"0,3",Rayan Poltronieri Pereira,"0,3",3,"2,96",1,7,"-1,04",,,,,,,"1,0",,,,,,"1,0",,,,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Zagueiro,zag
+Diego,388,289,1,"1,5",Diego Gonçalves,"1,5",5,"4,48",1,7,"-0,52",,,,,,,,,,,,,,"5,0","2,0",,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Atacante,ata
+Charles,389,289,0,"0,0",Charles Luis Reiter,"0,0",3,"6,0",1,5,"0,0",,,,,,,,,,,,,,,,,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Contundido,Zagueiro,zag
+Leandro Vilela,390,289,1,"2,5",Leandro Vilela Sales Teixeira,"2,5",4,"4,48",1,7,"0,48",,"1,0",,,"3,0",,"1,0","2,0",,,,,,"1,0","3,0",,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Meia,mei
+Alemão,396,289,1,"1,1",Jucimar José Teixeira,"1,1",2,"4,89",1,7,"-1,11",,,,,,,"1,0",,,,,,,"4,0","1,0",,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Lateral,lat
+Richard,400,289,1,"4,5",Richard de Oliveira da Costa,"4,5",1,"6,54",1,7,"1,54",,,,"2,0",,,,"1,0",,,,"1,0",,,,,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Goleiro,gol
+Jhony,402,289,0,"0,0",Jhony Douglas Santiago,"0,0",4,"3,0",1,5,"0,0",,,,,,,,,,,,,,,,,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Contundido,Meia,mei
+Wesley Dias,409,289,1,"0,5",Wesley Dias Claudino,"0,5",4,"2,41",1,7,"-0,59",,,,,"3,0",,,"4,0",,,,,,"5,0","1,0",,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Meia,mei
+Caio Henrique,683,289,1,"-0,4",Caio Henrique Oliveira Silva,"-0,4",4,"2,48",1,7,"-1,52",,,,,"3,0",,"1,0",,,,,,,"4,0","1,0",,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Meia,mei
+Jesiel,690,289,1,"1,5",Jesiel Cardoso Miranda,"1,5",3,"3,1",1,7,"0,1",,,,,,,,,,,,,,,"1,0",,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Zagueiro,zag
+Silvinho,693,289,1,"1,6",Silvio José Cardoso Reis Junior,"1,6",5,"3,86",1,7,"-0,14",,,,,"3,0","1,0",,"2,0",,,,,,"2,0","1,0",,Paraná,PAR,"['', '', '', '', 'd']","['', '', '', '', 'v']",289,264,Provável,Atacante,ata
+Ricardo Oliveira,362,282,1,"-1,0",Ricardo de Oliveira,"-1,0",5,"2,76",1,7,"-2,24",,,,,"3,0",,"2,0","1,0",,,,,"2,0","2,0",,,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Provável,Atacante,ata
+Fábio Santos,363,282,1,"-2,0",Fábio Santos Romeu,"-2,0",2,"5,51",1,2,"-4,49",,"1,0",,,"1,0",,,"1,0",,,,,,"5,0","1,0",,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Dúvida,Lateral,lat
+Patric,370,282,1,"-0,8",Patric Cabral Lalau,"-0,8",2,"4,27",1,7,"-2,73",,,,,"2,0",,,"1,0",,,,,,"6,0","1,0",,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Provável,Lateral,lat
+Victor,371,282,1,"4,1",Victor Leandro Bagy,"4,1",1,"12,47",1,7,"-1,53",,,,"3,0",,,,,,,,"2,0",,"3,0",,,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Provável,Goleiro,gol
+Luan,373,282,1,"11,1",Luan Madson Gedeão De Paiva,"11,1",5,"13,16",1,7,"5,16",,,,,,,,,,,,,,"3,0","8,0",,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Provável,Atacante,ata
+Samuel Xavier,376,282,0,"0,0",Samuel Xavier Brito,"0,0",2,"5,0",1,2,"0,0",,,,,,,,,,,,,,,,,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Dúvida,Lateral,lat
+Elias,377,282,1,"1,1",Elias Mendes Trindade,"1,1",4,"9,02",1,7,"-2,98",,,,,,,,"1,0",,,,,,"3,0","1,0",,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Provável,Meia,mei
+Clayton,378,282,0,"0,0",Clayton Silveira da Silva,"0,0",5,"6,0",1,5,"0,0",,,,,,,,,,,,,,,,,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Contundido,Atacante,ata
+Cazares,470,282,1,"5,1",Juan Ramón Cazares Sevillano,"5,1",4,"11,09",1,2,"0,09",,,,,"1,0","2,0","1,0",,,,,,,"2,0","2,0",,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Dúvida,Meia,mei
+Iago Maidana,518,282,0,"0,0",Iago Justen Maidana Martins,"0,0",3,"4,0",1,5,"0,0",,,,,,,,,,,,,,,,,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Contundido,Zagueiro,zag
+Uilson,519,282,0,"0,0",Uilson Pedruzzi de Oliveira,"0,0",1,"2,0",1,5,"0,0",,,,,,,,,,,,,,,,,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Contundido,Goleiro,gol
+Gabriel,521,282,1,"-0,5",Gabriel Costa França,"-0,5",3,"7,92",1,7,"-4,08",,,,,"3,0",,,"2,0",,,,,,,,,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Provável,Zagueiro,zag
+Otero,579,282,1,"16,5",Rómulo Otero Vásquez,"16,5",4,"14,81",1,7,"9,81",,,,,"1,0","2,0","2,0","2,0",,"1,0",,,"1,0",,"3,0",,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Provável,Meia,mei
+Gustavo Blanco,702,282,1,"15,4",Gustavo Blanco Petersen Macedo,"15,4",4,"12,68",1,7,"9,68","1,0",,,,"3,0","2,0",,"1,0","1,0",,,,,,"4,0",,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Provável,Meia,mei
+Tomás Andrade,707,282,0,"0,0",Tomás Gustavo Andrade,"0,0",4,"5,0",1,2,"0,0",,,,,,,,,,,,,,,,,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Dúvida,Meia,mei
+Bremer,710,282,1,"-0,1",Gleison Bremer Silva Nascimento,"-0,1",3,"2,69",1,7,"-1,31",,"1,0",,,"2,0",,,"1,0",,,,,,"2,0","2,0",,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Provável,Zagueiro,zag
+Thiago Larghi,781,282,1,"4,15",Thiago Larghi,"4,15",6,"6,3",1,7,"1,3",,,,,,,,,,,,,,,,,Atlético-MG,ATL,"['', '', '', '', 'd']","['', '', '', '', 'e']",282,287,Provável,Técnico,tec

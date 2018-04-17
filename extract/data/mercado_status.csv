@@ -1,2 +1,2 @@
 aviso,aviso_url,cartoleta_inicial,esquema_default_id,exibe_sorteio_pro,fechamento.ano,fechamento.dia,fechamento.hora,fechamento.mes,fechamento.minuto,fechamento.timestamp,game_over,max_ligas_free,max_ligas_matamata_free,max_ligas_matamata_pro,max_ligas_patrocinadas_free,max_ligas_patrocinadas_pro_num,max_ligas_pro,mercado_pos_rodada,reativar,rodada_atual,status_mercado,temporada,times_escalados
-,,100,4,False,2018,14,14,4,0,1523725200,False,1,5,5,2,2,6,False,True,1,2,2018,4577182
+,,100,4,False,2018,21,14,4,0,1524330000,False,1,5,5,2,2,6,True,True,2,1,2018,644207
