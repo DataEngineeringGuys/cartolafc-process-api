@@ -15,16 +15,17 @@ def main():
     tmp = 'extract\\data\\'
     mkdir(tmp)
     tmp = tmp + '{}.csv'
-    logger.info("Criado com sucesso!")
+
+    rodada = get_api_cartolafc('https://api.cartolafc.globo.com/partidas')
+    rodada = str(rodada['rodada'])
 
     logger.info("Inicio de extração de dados do Cartola FC")
     for k, v in cartolafc_endpoint.items():
         response = get_api_cartolafc(v[0])
         if response != None:
             df = cartolafc_dataframe(response, k)
-
-        export_csv(df, tmp, k)
-        logger.info("Arquivo %s exportado."%(k))
+            export_csv(df, tmp, k+'_'+rodada)
+            logger.info("Arquivo %s exportado."%(k))
 
     logger.info("Extração concluida com sucesso.")
     

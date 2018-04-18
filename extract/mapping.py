@@ -2,13 +2,13 @@
 cartolafc_endpoint = {
 "mercado_status": ["https://api.cartolafc.globo.com/mercado/status"],
 "mercado_destaque": ["https://api.cartolafc.globo.com/mercado/destaques"],
-"patrocinadores": ["https://api.cartolafc.globo.com/patrocinadores"],
+# "patrocinadores": ["https://api.cartolafc.globo.com/patrocinadores"],
 "rodadas": ["https://api.cartolafc.globo.com/rodadas"],
 "partidas": ["https://api.cartolafc.globo.com/partidas"],
-"clubes": ["https://api.cartolafc.globo.com/clubes"],
+# "clubes": ["https://api.cartolafc.globo.com/clubes"],
 "atletas": ["https://api.cartolafc.globo.com/atletas/mercado"],
 "atletas_pontuados" : ["https://api.cartolafc.globo.com/atletas/pontuados"],
-"esquemas_taticos": ["https://api.cartolafc.globo.com/esquemas"]
+# "esquemas_taticos": ["https://api.cartolafc.globo.com/esquemas"]
 }
 
 cartolafc_endpoint_busca = {
@@ -44,3 +44,63 @@ grandes_clubes = {"Flamengo":262,
 posicoes_map = {"1":{"id":1,"nome":"Goleiro","abreviacao":"gol"},"2":{"id":2,"nome":"Lateral","abreviacao":"lat"},"3":{"id":3,"nome":"Zagueiro","abreviacao":"zag"},"4":{"id":4,"nome":"Meia","abreviacao":"mei"},"5":{"id":5,"nome":"Atacante","abreviacao":"ata"},"6":{"id":6,"nome":"Técnico","abreviacao":"tec"}}
 
 status_map = {'2': {'id': 2, 'nome': 'Dúvida'}, '3': {'id': 3, 'nome': 'Suspenso'}, '5': {'id': 5, 'nome': 'Contundido'}, '6': {'id': 6, 'nome': 'Nulo'}, '7': {'id': 7, 'nome': 'Provável'}}
+
+old_pontuacoes_map = [{"descricao": "Assistência",
+"A": 5.0},
+{"descricao": "Gol",
+"G": 8.0},
+{"descricao": "Finalização na trave",
+"FT": 3.0},
+{"descricao": "Falta sofrida",
+"FS": 0.5},
+{"descricao": "Finalização defendida",
+"FD": 1.2},
+{"descricao": "Finalização para fora",
+"FF": 0.8},
+{"descricao": "Cartão amarelo",
+"CA": -2.0},
+{"descricao": "Cartão vermelho",
+"CV": -5.0},
+{"descricao": "Defesa difícil",
+"DD": 3.0},
+{"descricao": "Falta cometida",
+"FC": -0.5},
+{"descricao": "Penalti perdido",
+"PP": -4.0},
+{"descricao": "Impedimento",
+"I": -0.5},
+{"descricao": "Gol contra",
+"GC": -5.0},
+{"descricao": "Gol sofrido",
+"GS": -2.0},
+{"descricao": "Passe errado",
+"PE": -0.3},
+{"descricao": "Roubada de bola",
+"RB": -0.3},
+{"descricao": "Jogo sem sofrer gols",
+"SG": 5.0},
+{"descricao": "Defesa de pênalti",
+"DP": 7.0} ]
+
+pontuacoes_map = {"A": 5.0, "G": 8.0, "FT": 3.0, "FS": 0.5, "FD": 1.2,
+"FF": 0.8,
+"CA": -2.0,
+"CV": -5.0,
+"DD": 3.0,
+"FC": -0.5,
+"PP": -4.0,
+"I": -0.5,
+"GC": -5.0,
+"GS": -2.0,
+"PE": -0.3,
+"RB": -0.3,
+"SG": 5.0,
+"DP": 7.0} 
+
+
+columns_dataset_list = ['atleta_id', 'id_clubes', 'media_num', 'preco_num', 
+'status_id', 'variacao_num',
+'A','CA','CV','DD','FC','FD','FF','FS','FT','G','GC','GS','I','PE','RB','SG', 
+'A_value','CA_value','CV_value','DD_value','FC_value','FD_value','FF_value','FS_value',
+'FT_value','G_value','GC_value','GS_value','I_value','PE_value','RB_value',
+'SG_value', 'posicao_id']

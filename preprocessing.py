@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
-from extract.mapping import columns_dataset_casa, grandes_clubes, posicoes_map, status_map
+from extract.mapping import grandes_clubes, posicoes_map, status_map, pontuacoes_map, columns_dataset_list
 from extract.config import config_log
 from functools import reduce
 from sklearn import linear_model
+from sklearn.cross_validation import train_test_split
 
 logger = config_log()
 
-## Atletas_pontuados 'A','CA','CV','DD','FC','FD','FF','FS','FT','G','GC','GS','I','PE','RB','SG'
+## Atletas_pontuados 
 # df_atletas_pontuados = pd.read_csv(filepath_or_buffer='./extract/data/atletas_pontuados.csv', usecols=['apelido','atleta_id','clube_id','jogos_num','media_num','nome',\
 # 'pontos_num','posicao_id','preco_num','rodada_id','status_id','variacao_num'])
 # df_atletas_pontuados.rename(columns={'nome':'nome_atleta', 'clube_id': 'id_clubes'}, inplace=True)
@@ -33,24 +34,42 @@ df_final = pd.merge(df_final, df_status, how='left', on='status_id')
 
 df_final = pd.merge(df_final, df_posicoes, how='left', left_on='posicao_id', right_on='posicao_id')
 
-
-# # Selecionando jogadores do time casa
-# result_ = dataset.loc[ (dataset['nome_clube'].isin([i for i in grandes_clubes.keys()])) \
-# & (dataset['status_id'] == 7)  ]
-
 df_final.drop( df_final[df_final.nome_status == 'Nulo'].index, inplace=True )
-# df_final.to_csv('escalacao_opcoes.csv', index = False, encoding = 'utf-8-sig', decimal=',')
+if 'DP' not in df_final.columns:
+    df_final['DP'] = 0
+if 'PP' not in df_final.columns:
+    df_final['PP'] = 0
 
-dataset = df_final[['atleta_id', 'id_clubes', 'media_num', 'pontos_num', 'preco_num', 'status_id', 'variacao_num','A','CA','CV','DD','FC','FD','FF','FS','FT','G','GC','GS','I','PE','RB','SG', 'nome_status', 'posicao_id']]
+for i in pontuacoes_map.keys():
+    df_final[i+'_value'] = df_final[i].apply(lambda x: x*pontuacoes_map[i])
 
-dataset = dataset[dataset.nome_status == 'Provável']
-dataset = dataset[dataset.posicao_id == 5]
+df_final = df_final.fillna(0)
+print(df_final.head())
+########## Create dataset
 
-X, y = dataset[['atleta_id', 'id_clubes', 'preco_num', 'variacao_num','A','CA','CV','DD','FC','FD','FF','FS','FT','G','GC','GS','I','PE','RB','SG']], dataset['pontos_num']
-X = X.fillna(0)
-lm = linear_model.LinearRegression()
+df_final = df_final[df_final.nome_status == 'Provável']
+# 5 = Atacante
+df_final = df_final[df_final.posicao_id == 5]
+df_final = df_final.fillna(0)
 
-result = lm.score(X,y)
-logger.info("CSV exportado com sucesso!")
+dataset = df_final[columns_dataset_list]
+columns_target = columns_dataset_list
+columns_target.append('pontos_num')
+target = df_final[columns_target] 
+
+X_train, X_test, y_train, y_test = train_test_split(dataset,target, train_size = 0.8)
+
+# lm = linear_model.LinearRegression()
+
+lm.fit(X_train, y_train)
+y_pred = lm.predict(X_test)
+
+y_test['preds'] = y_pred[0]
+
+df_out = pd.merge(df_final, y_test[['preds']],how = 'left',left_index = True, right_index = True)
+
+print(df_out[['apelido', 'pontos_num','preds', 'preco_num']])
+
+logger.info("Modelo gerado.")
 
 
