@@ -98,9 +98,11 @@ pontuacoes_map = {"A": 5.0, "G": 8.0, "FT": 3.0, "FS": 0.5, "FD": 1.2,
 "DP": 7.0} 
 
 
-columns_dataset_list = ['atleta_id', 'id_clubes', 'media_num', 'preco_num', 
-'status_id', 'variacao_num',
-'A','CA','CV','DD','FC','FD','FF','FS','FT','G','GC','GS','I','PE','RB','SG', 
-'A_value','CA_value','CV_value','DD_value','FC_value','FD_value','FF_value','FS_value',
-'FT_value','G_value','GC_value','GS_value','I_value','PE_value','RB_value',
-'SG_value', 'posicao_id']
+# columns_dataset_list = ['atleta_id', 'id_clubes', 'media_num', 'preco_num', 
+# 'status_id', 'variacao_num',
+# #'A','CA','CV','DD','FC','FD','FF','FS','FT','G','GC','GS','I','PE','RB','SG', 
+# 'A_value','CA_value','CV_value','DD_value','FC_value','FD_value','FF_value','FS_value',
+# 'FT_value','G_value','GC_value','GS_value','I_value','PE_value','RB_value',
+# 'SG_value', 'posicao_id']
+
+columns_dataset_list = ["Rodada","id_clubes","atleta_id","Participou","media_num","preco_num","variacao_num","FS","PE","A","FT","FD","FF","G","I","PP","RB","FC","GC","CA","CV","SG","DD","DP","GS"]
