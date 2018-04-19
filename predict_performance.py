@@ -15,9 +15,17 @@ logger.info("Start modeling")
 # 5 = Atacante
 # df_final = df_final[df_final.posicao_id == 5]
 
-df_final = pd.read_csv(filepath_or_buffer='./extract/data/Scouts.csv')
-df_final = df_final.loc[df_final['Participou'] == True]
-df_final = df_final.loc[df_final['atleta_id'] == 68808] # 38545 61033 36540
+df_full = pd.read_csv(filepath_or_buffer='./extract/data/Scouts.csv')
+df_final = df_full.loc[df_full['Participou'] == True]
+df_final2 = df_final.loc[df_final['atleta_id'] == 61033] # 68808 61033 36540
+
+df_partidas = pd.read_csv(filepath_or_buffer='./extract/data/partidas.csv', usecols=['clube_visitante_id', 'clube_visitante_posicao'])
+df_partidas['Rodada'] = 38
+df_final = pd.merge(df_final2, df_partidas, how='inner', left_on='id_clubes', right_on='clube_visitante_id')
+
+print(df_final.head(50))
+
+
 target = df_final['pontos_num'] 
 dataset = df_final[columns_dataset_list]
 

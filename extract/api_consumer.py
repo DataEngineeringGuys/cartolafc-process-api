@@ -17,7 +17,7 @@ def main():
     tmp = tmp + '{}.csv'
 
     rodada = get_api_cartolafc('https://api.cartolafc.globo.com/partidas')
-    rodada = str(rodada['rodada'])
+    rodada = str(rodada['rodada']-1)
 
     logger.info("Inicio de extração de dados do Cartola FC")
     for k, v in cartolafc_endpoint.items():
