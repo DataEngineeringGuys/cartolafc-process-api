@@ -49,14 +49,15 @@ df_final = df_final.fillna(0)
 
 ########## Create dataset
 logger.info("Start processing")
+from sklearn.ensemble import RandomForestRegressor
 
 df_final = df_final[df_final.nome_status == 'Provável']
 # 5 = Atacante
 # df_final = df_final[df_final.posicao_id == 5]
 df_final = df_final.fillna(0)
-df_final = pd.read_csv(filepath_or_buffer='./extract/data/kkk.csv')
+df_final = pd.read_csv(filepath_or_buffer='./extract/data/Scouts.csv')
 df_final = df_final.loc[df_final['Participou'] == True]
-df_final = df_final.loc[df_final['atleta_id'] == 68808] # 38545 61033 36540
+# df_final = df_final.loc[df_final['atleta_id'] == 68808] # 38545 61033 36540
 
 dataset = df_final[columns_dataset_list]
 target = df_final['pontos_num'] 
